@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Владимир Завадский](https://up.htmlacademy.ru/htmlcss/30/user/1705775).
-* Наставник: [Павел Нюкало](https://htmlacademy.ru/profile/nyukalopavel).
+* Наставник: [Павел 😺 Нюкало](https://htmlacademy.ru/profile/nyukalopavel).
 
 ---
 
