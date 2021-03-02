@@ -44,10 +44,10 @@ img {
 
 .wrapper {
   width: 1200px;
+  background-color: var(--basic-white);
 }
 
 .main-navigation {
-  background-color: var(--basic-white);
 }
 
 .site-navigation{
@@ -125,7 +125,6 @@ img {
 }
 
 .text:active {
-  background-color: var(--basic-white);
 }
 
 .button-info {
@@ -181,7 +180,6 @@ img {
 }
 
 .main-footer {
-  background-color: var(--basic-white);
 }
 
 .contacts {
