@@ -30,7 +30,7 @@ body {
   font-weight: normal;
   color: var(--basic-black);
   text-transform: uppercase;
-  background-color: var(--special-normal-grey);
+  background-color: var(--basic-extra-light-grey);
 }
 
 a {
@@ -42,19 +42,17 @@ img {
   height: auto;
 }
 
+.wrapper {
+  width: 1200px;
+}
+
 .main-navigation {
   background-color: var(--basic-white);
-
-
 }
 
 .site-navigation{
   list-style: none;
-
-  font-family: PT Sans;
-  font-style: normal;
   font-weight: bold;
-  font-size: 14px;
   line-height: 26px;
 }
 
@@ -73,18 +71,13 @@ img {
 
 .introduction {
   text-align: center;
-  font-family: PT Sans;
-  font-style: normal;
+
   font-weight: bold;
   font-size: 21px;
   line-height: 36px;
 }
 
 .introduction p {
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
   line-height: 26px;
 }
 
@@ -109,8 +102,7 @@ img {
 }
 .appointment h2 {
   text-align: center;
-  font-family: PT Sans;
-  font-style: normal;
+
   font-weight: bold;
   font-size: 30px;
   line-height: 24px;
@@ -118,18 +110,10 @@ img {
 
 .appointment-form {
   text-align: center;
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 21px;
 }
 
 .appointment-datain {
-  font-family: PT Sans;
-  font-style: normal;
   font-weight: bold;
-  font-size: 14px;
   line-height: 18px;
 }
 
@@ -149,8 +133,6 @@ img {
 .button-info {
   color: var(--basic-white);
   background-color: var(--basic-light-brown);
-  font-family: PT Sans;
-  font-style: normal;
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
@@ -169,8 +151,6 @@ img {
 .button-find {
   color: var(--basic-white);
   background-color: var(--basic-sky-blue);
-  font-family: PT Sans;
-  font-style: normal;
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
@@ -182,19 +162,19 @@ img {
 }
 
 .appointment-item {
-  font-family: PT Sans;
-  font-style: normal;
   font-weight: bold;
-  font-size: 14px;
   line-height: 26px;
 }
 
 .button {
   background-color: var(--special-dark-grey);
-  font-family: PT Sans;
-  font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  line-height: 26px;
+}
+
+.calendar {
+  background-color: var(--special-dark-grey);
+  font-weight: bold;
   line-height: 26px;
 }
 
@@ -208,8 +188,6 @@ img {
 
 .contacts {
   text-decoration: none;
-  font-family: PT Sans;
-  font-style: normal;
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
