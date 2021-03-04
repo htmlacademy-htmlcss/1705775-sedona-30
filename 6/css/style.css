@@ -1,0 +1,237 @@
+:root {
+--basic-black: #000000;
+--basic-sky-blue: #81B3D2;
+--sky-blue-place: #669EC0;
+--sky-blue-press: #5496BD;
+--basic-white: #FFFFFF;
+--basic-dark-grey: #333333;
+--basic-light-grey: #EEEEEE;
+--basic-extra-light-grey: #F2F2F2;
+--light-grey-place: #EBEBEB;
+--basic-light-brown: #766357;
+--basic-dark-brown: #604E43;
+--basic-extra-dark-brown: #503E33;
+
+--special-grey: #A9A9A9;
+--special-dark-grey: #666666;
+--special-light-grey: #CACACA;
+--special-grey: #A9A9A9;
+--special-normal-grey: #888888;
+}
+
+body {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans","Arial", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-extra-light-grey);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  width: 1200px;
+  background-color: var(--basic-white);
+}
+
+.main-navigation {
+}
+
+.site-navigation{
+  list-style: none;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.site-navigation a {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: var(--basic-sky-blue);
+}
+
+.main-promo {
+  text-align: center;
+}
+
+.introduction {
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.introduction p {
+  line-height: 26px;
+}
+
+.features-list,
+.features-item,
+.features-subtype {
+  list-style: none;
+}
+
+.features-block{
+  background-color: var(--basic-sky-blue);
+  color: var(--basic-white);
+}
+
+.features-subtype{
+  background-color: var(--basic-light-grey);
+}
+
+.appointment {
+  text-align: center;
+  background-color: var(--basic-light-grey)
+}
+.appointment h2 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.appointment-form {
+  text-align: center;
+}
+
+.appointment-datain {
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.text {
+  background-color: var(--basic-extra-light-grey);
+}
+
+.text:hover,
+.text:focus {
+  background-color: var(--light-grey-place);
+}
+
+.text:active {
+}
+
+.button-info {
+  color: var(--basic-white);
+  background-color: var(--basic-light-brown);
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.button-info:hover,
+.button-info:focus {
+  background-color: var(--basic-dark-brown);
+}
+
+.button-info:active {
+  background-color: var(--basic-extra-dark-brown);
+}
+
+.button-find {
+  color: var(--basic-white);
+  background-color: var(--basic-sky-blue);
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.button-find:active {
+  background-color: var(--sky-blue-press);
+}
+
+.appointment-item {
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.button {
+  background-color: var(--special-dark-grey);
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.calendar {
+  background-color: var(--special-dark-grey);
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.map {
+  text-align: center;
+}
+
+.main-footer {
+}
+
+.contacts {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+/* CATALOG */
+.filtres {
+  background-color: var(--basic-sky-blue);
+}
+.filtres-form {
+  font-size: 16px;
+  color: var(--basic-white);
+}
+
+.filtres-item h3 {
+font-weight: bold;
+font-size: inherit;
+}
+
+.result h2,
+.result-info,
+.findings h2 {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.result-value {
+  font-size: 12px;
+  line-height: 18px;
+  list-style: none;
+}
+
+.findings-item {
+  list-style: none;
+}
+
+.button-info{
+  font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+  background-color: var(--basic-sky-blue)
+}
+
+.button-bron{
+  color: var(--basic-white);
+  font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+  background-color: var(--basic-light-brown)
+}
