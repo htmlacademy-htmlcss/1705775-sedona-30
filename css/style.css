@@ -50,10 +50,30 @@ img {
 .main-navigation {
 }
 
+
 .site-navigation{
   list-style: none;
   font-weight: bold;
   line-height: 26px;
+  display: grid;
+  grid-template-columns: 227px 227px 146px 227px 227px;
+}
+
+.site-navigation li:nth-child(1),
+.site-navigation li:nth-child(2) {
+  text-align: left;
+}
+
+.site-navigation li:nth-child(3) {
+  text-align: right;
+  grid-column-start: 4;
+}
+
+.site-navigation li:nth-child(4){
+  text-align: right;
+}
+
+.main-header-logo{
 }
 
 .site-navigation a {
@@ -64,6 +84,8 @@ img {
 .site-navigation a:focus {
   color: var(--basic-sky-blue);
 }
+
+
 
 .main-promo {
   text-align: center;
@@ -87,18 +109,60 @@ img {
   list-style: none;
 }
 
+.features-list {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(3, min-content);
+  text-align: center;
+}
+
+.first-item {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: minmax(256px, max-content) minmax(300px, max-content);
+  background-color: var(--basic-sky-blue);
+}
+
+.first-item img {
+  grid-column: 2/4;
+}
+
+.first-item ul {
+  padding: 0;
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+}
+
 .features-block{
   background-color: var(--basic-sky-blue);
   color: var(--basic-white);
 }
 
-.features-subtype{
+.features-item {
   background-color: var(--basic-light-grey);
+}
+
+.features-subtype{
+  background-color: var(--basic-white);
+}
+
+.second-item {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: minmax(256px, max-content);
+
+}
+
+.second-item img {
+  grid-column: 1/3;
 }
 
 .appointment {
   text-align: center;
-  background-color: var(--basic-light-grey)
+
 }
 .appointment h2 {
   font-weight: bold;
@@ -180,6 +244,8 @@ img {
 }
 
 .main-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .contacts {
