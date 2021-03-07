@@ -48,7 +48,6 @@ img {
 }
 
 .main-navigation {
- text-align: center;
 }
 
 
@@ -57,12 +56,24 @@ img {
   font-weight: bold;
   line-height: 26px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 227px 227px 146px 227px 227px;
+}
+
+.site-navigation li:nth-child(1),
+.site-navigation li:nth-child(2) {
+  text-align: left;
+}
+
+.site-navigation li:nth-child(3) {
+  text-align: right;
+  grid-column-start: 4;
+}
+
+.site-navigation li:nth-child(4){
+  text-align: right;
 }
 
 .main-header-logo{
-  text-align: center;
-
 }
 
 .site-navigation a {
@@ -129,8 +140,12 @@ img {
   color: var(--basic-white);
 }
 
-.features-subtype{
+.features-item {
   background-color: var(--basic-light-grey);
+}
+
+.features-subtype{
+  background-color: var(--basic-white);
 }
 
 .second-item {
@@ -138,6 +153,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 400px);
   grid-template-rows: minmax(256px, max-content);
+
 }
 
 .second-item img {
@@ -146,7 +162,7 @@ img {
 
 .appointment {
   text-align: center;
-  background-color: var(--basic-light-grey)
+  background-color: var(--basic-white)
 }
 .appointment h2 {
   font-weight: bold;
