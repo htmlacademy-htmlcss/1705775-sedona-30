@@ -32,10 +32,7 @@ body {
   text-transform: uppercase;
   background-color: var(--basic-extra-light-grey);
 
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: min-content 1fr min-content;
-  align-content: start;
+
 }
 
 a {
@@ -292,11 +289,9 @@ img {
 }
 
 .filtres-submit {
-grid-column-start: 3;
 }
 
 .filtres-item {
-
 }
 
 .filtres-item h3 {
@@ -334,11 +329,11 @@ font-size: inherit;
 .findings-item {
   list-style: none;
   padding: 0;
-  display: flex;
+
 }
 
 .findings-item img {
-flex-grow: 1;
+
 }
 
 .findings-item-info{
